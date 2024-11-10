@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="text-center mt-4">
-          <p>&copy; 2024 Raziq, All rights reserved.</p>
+          <p>&copy; 2024 Raziq, All rights reserved.</p> 
         </div>
       </div>
     </footer>
