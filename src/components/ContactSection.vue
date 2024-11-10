@@ -44,6 +44,7 @@
             this.form.name = '';
             this.form.email = '';
             this.form.message = '';
+            alert('Email sent successfully!');
           }, (error) => {
             alert('Failed to send email. Please try again later.');
           });

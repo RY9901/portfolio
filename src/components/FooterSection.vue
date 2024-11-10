@@ -33,7 +33,14 @@
     background-color: #333;
     color: white;
     padding: 20px 0;
+    align-items: normal !important;
+    justify-content: normal !important;
   }
+  .footer > * {
+    display: grid;
+    place-items: normal !important;
+    gap: 0.75rem;
+}
   
   .footer h5 {
     font-size: 1.25rem;
