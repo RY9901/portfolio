@@ -21,7 +21,7 @@
   import AboutSection from '@/components/AboutSection.vue'
   import ProjectsSection from '@/components/ProjectsSection.vue'
   import ContactSection from '@/components/ContactSection.vue'
-  import FooterSection from '@/components/FooterSection.vue'
+  import FooterSection from '@/components/footerSection.vue'
 
   
   export default {
