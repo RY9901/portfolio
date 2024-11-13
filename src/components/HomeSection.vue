@@ -62,7 +62,6 @@ export default {
 
 <style scoped>
 .section {
-  height: 100vh;
   background-image: url('@/assets/img/background.jpg'); /* Replace with your background image path */
   background-size: cover;
   background-position: center;
@@ -75,20 +74,30 @@ h1 {
   font-size: 2rem;
 }
 
-@media (min-width: 768px) {
-    .profile-picture {
-    max-width: 800px;
-    border-radius: 10%;
-  }
-  h1 {
-    font-size: rem; 
-  }
+@media (max-width: 767px) {
+  .section {
+      height: 200vh;
+    }
 }
 
-@media (min-width: 1024px) {
-  h1 {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .section {
+      height: 200vh;
+    }
+}
+
+@media (min-width: 1025px) {
+  .section {
+      height: 100vh;
+    }
+    h1 {
     font-size: 2rem;
   }
+  .profile-picture {
+    max-width: 100%;
+    border-radius: 10%;
+    max-height: 80%;
+    }
 }
 
 .profile-picture {
